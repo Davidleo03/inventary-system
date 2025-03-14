@@ -5,6 +5,7 @@ import menuItems from "../utils/MenuItems"
 
 const VerticalMenu = () => {
   const { toggleMenu, isMenuOpen, isMobile} = useMenu()
+  console.log("Menu Funcionando")
   
 
   return (
